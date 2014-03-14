@@ -45,6 +45,17 @@ p {
   height: 0;
 }
 
+.mario-sun {
+  position: fixed;
+  top: 40px;
+  left: 50px;
+  width: 100px;
+}
+
+.mario-sun img {
+  max-width: 100%;
+}
+
 .cast-name {
   position: fixed;
   bottom: 15px;
@@ -59,8 +70,30 @@ p {
   left: 10px;
 }
 
+.buddy-character-mark {
+  position: fixed;
+  bottom: 13px;
+  left: 260px;
+  width: 125px;
+}
+
+.buddy-character-mark img {
+  max-width: 100%;
+}
+
 .header-alex {
   right: 10px;
+}
+
+.buddy-character-alex {
+  position: fixed;
+  bottom: 13px;
+  right: 290px;
+  width: 90px;
+}
+
+.buddy-character-alex img {
+  max-width: 100%;
 }
 
 .level-ground {
@@ -81,7 +114,6 @@ p {
 }
 
 .title {
-  margin-top: 5%; 
   text-align: center;
   color: white;
 }
@@ -89,6 +121,21 @@ p {
 .hearts-container {
   text-align: center;
   margin-top: 2.4em;
+}
+
+.heart-container-with-donkey {
+  position: relative;
+}
+
+.donkey-kong {
+  position: absolute;
+  top: -43px;
+  left: 66px;
+  width: 80px;
+}
+
+.donkey-kong img {
+  max-width: 100%;
 }
 
 .heart-container {
@@ -103,6 +150,7 @@ p {
   top: 0;
   width: 100%;
   border-top: 15px solid #1c1c1c;
+  z-index: 9999;
 }
 
 .fuzzy-filter {
