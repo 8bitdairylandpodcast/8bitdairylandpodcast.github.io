@@ -1,1 +1,19 @@
-hello
+---
+layout: home_page
+title: 8-bit Dairyland
+---
+
+{% include header.html %}
+
+<div class="content-overlay">
+  <div class="eppos">
+    <h2>Episodes</h2>
+    {% include main-page/episode-feed.html %}
+  </div>
+    
+  {% include main-page/archive.html %}
+  {% include footer.html %}
+
+  <div class="level-ground"></div>
+  <div class="fuzzy-filter"></div>
+</div>

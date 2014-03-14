@@ -1,0 +1,326 @@
+/*
+  blue: #209dcb;
+  red: #e83636;
+  black: #1a1a1a;
+*/
+
+body {
+  line-height: 16px;
+  background-color: #209dcb;
+}
+
+h1 {
+  font: 6em/100% 'Press Start 2P', cursive;
+}
+
+p {
+  font: 1em/100% "Courier New" Courier monospace;
+}
+
+/**HEADERSTYLE**/
+
+.header-img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.header-img img {
+  min-width: 100%;
+}
+
+.header-lvl {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #209dcb;
+  z-index: -1;
+}
+
+#level-canvas {
+  width: 100%;
+  height: 0;
+}
+
+.cast-name {
+  position: fixed;
+  bottom: 15px;
+}
+
+.cast-name h2{
+  font: 1.2em/100% 'Press Start 2P', cursive;
+  color: #f4f4f4;
+}
+
+.header-mark {
+  left: 10px;
+}
+
+.header-alex {
+  right: 10px;
+}
+
+.level-ground {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 16px;
+  background-image: url('../assets/images/grass3.png');
+}
+
+.header-overlay {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -99;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+.title {
+  margin-top: 5%; 
+  text-align: center;
+  color: white;
+}
+
+.hearts-container {
+  text-align: center;
+  margin-top: 2.4em;
+}
+
+.heart-container {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+
+.content-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border-top: 15px solid #1c1c1c;
+}
+
+.fuzzy-filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(244, 244, 244, 0.65);
+  z-index: -1;
+}
+
+#score {
+  position:absolute;
+  width:300px;
+  height:20px;
+  top:5px;
+  left:5px;
+  padding:5px;
+  color:#fff;
+  text-align:left;
+}
+
+#score_actual {
+  color:#00d20e;
+}
+
+#lives {
+  color:#fff;
+  height:20px;
+  width:185px;
+  position:absolute;
+  right:5px;
+  top:5px;
+  padding:5px;  
+}
+
+.life {
+  margin:0;
+  padding:0;
+  max-height: 60%;
+}
+
+.game-container {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
+
+#board_holder {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 500px;
+  height: 400px;
+  margin-left: -250px;
+  font-family: "Press Start 2P" cursive;
+}
+
+#board {
+  display: inline-block;
+  width:500px;
+  height:400px;
+  font-family: "Courier New" Courier monospace;
+}
+
+.barrier {
+  width:10px;
+  height:10px;
+  background:#00d20e;
+  z-index:10;
+  position:absolute;
+}
+
+#invaderHolder {
+  border:1px solid #fff;
+}
+.mothership {
+  width:32px;
+  height:14px;
+  position:absolute;
+  background:url('../assets/images/mothership.gif');
+}
+
+.invader {
+  width:25px;
+  height:18px;
+  position:absolute;
+  z-index:100;
+  background-image:url('../assets/images/invaders.gif'); 
+}
+
+.bullet {
+  width:2px;
+  height:5px;
+  position:absolute;
+  background:#fff;
+}
+
+.invaderBullet {
+  width:5px;
+  height:8px;
+  background:url('../assets/images/invader_bullet.gif');
+}
+
+.ship {
+  width: 30px;
+  height: 16px;
+  position:absolute;
+  background:url('../assets/images/ship.gif') 0px -16px;
+}
+
+#board h2 {
+  font-size:20px;
+}
+
+#board {
+  font-size:16px;
+}
+
+li {
+  list-style:none;
+}
+
+#game_over {
+  color:#f4f4f4;
+  margin-top:25%;
+  text-align:center;
+}
+
+#game_over a:link {
+  text-decoration: none;
+  font: 1.4em/100% "Courier New" Courier monospace;
+  font-weight: 700;
+  color: #e83636;
+}
+
+#info h1 {font-size:1.2em;}
+#info p a {text-decoration:underline;color:#fff;}
+#info p a:hover {text-decoration:none;color:#fff;}
+
+/**BODYSTYLE**/
+
+.eppos {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5em;
+  margin-bottom: 3em;
+  text-align: center;
+  max-width: 720px;
+}
+
+.eppos h2 {
+  font: 3.5em/100% 'Press Start 2P' cursive;
+  color: #1a1a1a;
+  margin-top: 0.3em;
+  margin-bottom: 1.8em;
+}
+
+.content h3 {
+  font: 1.5em/100% 'Press Start 2P' cursive;
+  text-align: left;
+  margin-bottom: .2em;
+}
+
+.title-link a:link {
+  text-decoration: none;
+  color: #e83636; 
+}
+
+.title-link a:visited {
+  text-decoration: none;
+  color: #e83636; 
+}
+
+.archive-list a:link {
+  text-decoration: none;
+  color: #209dcb;
+}
+
+.archive-list a:visited {
+  text-decoration: none;
+  color: #209dcb;
+}
+
+.archive-list a:hover {
+  color: #e83636;
+}
+
+.entry-summary {
+  text-align: left;
+  font: 1em/100% "Courier New" Courier monospace;
+  margin-bottom: 3em;
+}
+
+.entry-summary p {
+  font-weight: 600;
+  color: #2e2e2e;
+}
+
+.episode-date {
+  font: .8em/100% "Courier New" Courier monospace;
+  color: #2e2e2e;
+  font-weight: 600;
+}
+
+.sub-title {
+  width: 100%;
+  text-align: left;
+}
+
+.episode-date {
+  display: inline;
+  text-align: left;
+}
+
+.tag_list {
+  display: inline;
+}
