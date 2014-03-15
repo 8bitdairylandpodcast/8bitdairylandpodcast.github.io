@@ -2,7 +2,7 @@
 layout: episode
 title: Episode 10 - Testing the Podcast
 duration: 30:00
-length: 17068092
+length: 17068092 #file size in bytes
 link: http://8bitdairyland.com/episodes/podcast.mp3
 tags: [this, that, also, thus]
 ---
