@@ -372,3 +372,20 @@ li {
 .tag_list {
   display: inline;
 }
+
+
+
+/** SVG SUN CURVE **/
+svg {}
+
+svg path {
+  fill: none;
+  stroke: black;
+  stroke-width: 2px;
+  vector-effect: non-scaling-stroke;
+  stroke-linecap: round;
+}
+
+svg circle {
+  
+}
