@@ -364,12 +364,16 @@ li {
 .entry-summary {
   text-align: left;
   font: 1em/100% "Courier New" Courier monospace;
-  margin-bottom: 3em;
 }
 
 .entry-summary p {
   font-weight: 600;
   color: #2e2e2e;
+}
+
+audio {
+  width: 100%;
+  margin-bottom: 3em;
 }
 
 .episode-date {
