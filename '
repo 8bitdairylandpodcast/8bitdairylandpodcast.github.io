@@ -5,8 +5,11 @@
   <div class="mario-sun" id="mario-sun">
     <img src="../assets/images/sunShake.gif" />
   </div>
-  <div class="metroid-larva">
-    <img src="../assets/images/metroid-larva.png" />
+
+  <div class="metroid-larva-flock">
+    <div class="metroid-larva">
+      <img src="../assets/images/metroid-larva.png" />
+    </div>
   </div>
   <div class="header-overlay">
     <div class="title">
