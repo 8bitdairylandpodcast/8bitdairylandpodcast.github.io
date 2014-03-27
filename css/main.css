@@ -56,6 +56,24 @@ p {
   max-width: 100%;
 }
 
+.metroid-larva {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: -250px;
+  left: 600px;
+}
+
+.metroid-larva {
+  width: 25px;
+  height: 25px;
+  position: fixed;
+}
+
+.metroid-larva img {
+  max-width: 100%;
+}
+
 .cast-name {
   position: fixed;
   bottom: 15px;
@@ -149,6 +167,7 @@ p {
   position: absolute;
   top: 0;
   width: 100%;
+  min-height: 100%;
   border-top: 15px solid #1c1c1c;
   z-index: 9999;
 }
