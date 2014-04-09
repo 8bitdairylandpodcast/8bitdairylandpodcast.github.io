@@ -1,7 +1,7 @@
 <section class="content">
   <article>
     {% for post in site.posts %}
-      <h3 class="title-link"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <h3 class="title-link">{{ post.title }}</h3>
       <div class="sub-title">
         <p class="episode-date">{{ post.date | date: "%B %e, %Y" }} | </p> 
         <ul class="tag_list">
