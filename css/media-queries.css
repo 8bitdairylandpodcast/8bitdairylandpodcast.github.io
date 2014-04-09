@@ -1,0 +1,66 @@
+/*LARGE TABLET*/
+@media only screen and (max-width : 1024px) {
+  
+.buddy-character-mark {
+  display: none;
+}
+
+.buddy-character-alex {
+  display: none;
+}
+
+}
+
+@media only screen and (max-width : 900px) {
+
+h1 {
+  font: 4.5em/100% 'Press Start 2P' cursive;  
+}
+
+}
+
+/*SMALL TABLET*/
+@media only screen and (max-width : 767px) {
+  
+h1 {
+  font: 4em/100% 'Press Start 2P' cursive;
+}
+
+}
+
+@media only screen and (max-width : 600px) {
+
+h1 {
+  font: 3em/100% 'Press Start 2P' cursive;
+}
+
+.header-overlay {
+  display: none;
+}
+
+.mario-sun {
+  display: none;
+}
+
+.metroid-larva {
+  display: none;
+}
+
+.cast-name {
+  display: none;
+}
+
+.content-overlay {
+  top: 0 !important;
+}
+
+}
+
+/*SMARTPHONE*/
+@media only screen and (max-width : 479px) {
+
+.eppos h2 {
+  font: 2em/100% 'Press Start 2P' cursive;
+}
+
+}

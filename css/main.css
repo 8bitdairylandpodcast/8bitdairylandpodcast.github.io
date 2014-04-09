@@ -332,7 +332,7 @@ li {
 }
 
 .content h3 {
-  font: 1.5em/100% 'Press Start 2P' cursive;
+  font: 1.5em/120% 'Press Start 2P' cursive;
   text-align: left;
   margin-bottom: .2em;
   color: #e83636;
@@ -370,6 +370,16 @@ li {
 .entry-summary p {
   font-weight: 600;
   color: #2e2e2e;
+}
+
+.entry-summary a:link {
+  text-decoration: none;
+  color: #e83636;
+}
+
+.entry-summary a:visited {
+  text-decoration: none;
+  color: #e83636;
 }
 
 audio {
