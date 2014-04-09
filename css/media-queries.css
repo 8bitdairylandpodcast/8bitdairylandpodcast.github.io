@@ -54,13 +54,29 @@ h1 {
   top: 0 !important;
 }
 
+.eppos {
+  margin-top: 2em;
+}
+
+.desktop-only {
+  display: none;
+}
+
+.mobile-only {
+  display: inline-block;
+}
+
 }
 
 /*SMARTPHONE*/
 @media only screen and (max-width : 479px) {
 
+.content h3 {
+  font: 1.3em/100% 'Press Start 2P' cursive;
+}
+
 .eppos h2 {
-  font: 2em/100% 'Press Start 2P' cursive;
+  font: 1.8em/100% 'Press Start 2P' cursive;
 }
 
 }

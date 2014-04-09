@@ -4,6 +4,10 @@
   black: #1a1a1a;
 */
 
+.mobile-only {
+  display: none;
+}
+
 body {
   line-height: 16px;
   background-color: #209dcb;
