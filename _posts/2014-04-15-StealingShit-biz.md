@@ -3,7 +3,7 @@ layout: episode
 date: 2014-04-15 10:00:00
 title: Episode 0203 - StealingShit.biz
 duration: 42:41
-length: 58865355
+length: 61500916
 link: http://amsheehan.com/8bitdairyland_audio/8BDL-s2e3.mp3
 ---
 
