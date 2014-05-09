@@ -4,7 +4,7 @@ date: 2014-05-6 10:00:00
 title: Episode 0204 - There's a Drone War On, Son
 duration: 53:54
 length:
-link: http://amsheehan.com/8bitdairyland_audio/8bdl-s2e4.mp3
+link: http://amsheehan.com/8bitdairyland_audio/8BDL-s2e4.mp3
 ---
 
 Alex might be an old lady, but that hasn't stopped him from launching [a new blog for the Hackerati], or from being excited about static websites. Mark talks about the slow start of his [Year of Code] and gets excited for [Webhook], since it's a CMS that enables static sites for baby non-engineer types. Then the podcast goes full negative on net neutrality badness, [the war for spectrum], and [legal challenges for Uber]. This is the fourth episode of 8-Bit Dairyland's second season.
