@@ -3,7 +3,7 @@ layout: episode
 date: 2014-05-6 10:00:00
 title: Episode 0204 - There's a Drone War On, Son
 duration: 53:54
-length:
+length: 53:54
 link: http://amsheehan.com/8bitdairyland_audio/8BDL-s2e4.mp3
 ---
 
