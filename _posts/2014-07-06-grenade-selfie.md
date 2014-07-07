@@ -1,6 +1,6 @@
 ---
 layout: episode
-date: 2014-07-6 10:00:00
+date: 2014-07-06 10:00:00
 title: Episode 0205 - Grenade Selfie
 duration: 40:34
 length: 
